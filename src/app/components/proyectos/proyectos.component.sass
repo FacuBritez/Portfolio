@@ -1,72 +1,58 @@
 .container
     margin-top: 50px
 
-img
-    max-width: 100%
+    .row
+        margin: 0px
 
-// Titulos de proyectos
-a
-    color: white
-    text-decoration: none
-    transition: 0.5s
+        h2
+            margin-bottom: 20px
+        h2::after
+            content: ""
+            display: block
+            margin-top: 10px
+            width: 130px
+            height: 3px
+            background-color: #05a7a7
 
-#vlv:hover
-    color: red
+        .card
+            background: none
+            margin-bottom: 25px
 
-#calculadora:hover
-    color: lightgreen
+            img
+                max-width: 100%
+                max-height: 329px //Es para igualar las imagenes con y sin barra de scroll (Cuando les tomo captura estando en f11)
 
-#romanos:hover
-    color: #5cb95b
+            .card-body
+                background: #101120
 
-#Lista-de-tareas:hover
-    color: skyblue
+                // Titulos de proyectos
+                h4
+                    display: inline-block
+                    a
+                        color: white
+                        text-decoration: none
+                        transition: 0.5s
+                    a#vlv:hover
+                        color: red
+                    a#calculadora:hover
+                        color: lightgreen
+                    a#romanos:hover
+                        color: #5cb95b
+                    a#Lista-de-tareas:hover
+                        color: skyblue
 
-.row
-    margin: 0px
+                p
+                    margin: 0px
+                    .temporal
+                        color: grey
 
-h2
-    margin-bottom: 20px
+                a.boton
+                    float: right
 
-h4
-    display: inline-block
+                    button
+                        background-color: #1563AA
+                        color: white
 
-.card
-    background: none
-    margin-bottom: 25px
-
-.card-body
-    background: #101120
-
-p
-    margin: 0px
-
-.links
-    color: grey
-    font-size: 14px
-
-.boton
-    float: right
-
-button
-    background-color: #1563AA
-    color: white
-
-button:hover
-    background-color: #1562aac5
-    color: lightgrey
-
-/*Es para igualar las imagenes con y sin barra de scroll*/
-img
-    max-height: 329px
-
-h2::after
-    content: ""
-    display: block
-    margin-top: 10px
-    width: 130px
-    height: 3px
-    background-color: #05a7a7
-
-.temporal
-    color: grey
+                    button:hover
+                        background-color: #1562aac5
+                        color: lightgrey
