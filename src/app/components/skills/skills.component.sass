@@ -6,6 +6,8 @@
         padding: 0px
         max-width: 100%
 
+        #titulo
+            margin-bottom: 30px
         #titulo::after
             content: ""
             display: block
@@ -20,11 +22,14 @@
             p
                 margin: 0px
 
-            h3
-                margin: 30px 0px 0px
-            h3.otros
-                margin: 80px 0px 0px
-
+            .otros
+                height: 87px
+                margin-bottom: 8px
+                display: flex
+                align-items: end
+                justify-content: center
+                h3
+                    margin: 0px
             .col-lg-12
                 margin-bottom: 25px
                 .progress-bar
@@ -62,5 +67,6 @@
                     background-color: #F05033
 
 @media screen and (max-width: 991px)
-    h3.otros
-        margin: 30px 0px 0px
+    #otros
+        height: auto
+        margin-bottom: 8px
