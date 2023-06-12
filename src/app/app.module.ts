@@ -10,6 +10,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AsideComponent } from './components/aside/aside.component';
 import { UpComponent } from './components/up/up.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { UpComponent } from './components/up/up.component';
     SkillsComponent,
     FooterComponent,
     AsideComponent,
-    UpComponent
+    UpComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
