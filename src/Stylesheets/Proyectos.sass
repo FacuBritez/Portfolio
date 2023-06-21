@@ -1,0 +1,64 @@
+.container
+    margin-top: 50px
+
+    .row
+        margin: 0px
+
+        h2
+            margin-bottom: 20px
+        h2::after
+            content: ""
+            display: block
+            margin-top: 10px
+            width: 130px
+            height: 3px
+            background-color: #05a7a7
+
+        .col-sm-12
+
+        .card
+            background: none
+            margin-bottom: 25px
+            
+            img
+                max-width: 100%
+                max-height: 329px //Es para igualar las imagenes con y sin barra de scroll (Cuando les tomo captura estando en f11)
+
+            .card-body
+                background: #101120
+                border-radius: 5px
+                
+                // Titulos de proyectos
+                h4.card-title
+                    display: inline-block
+                    a
+                        color: white
+                        text-decoration: none
+                        transition: 0.5s
+                    a#vlv:hover
+                        color: red
+                    a#calculadora:hover
+                        color: lightgreen
+                    a#romanos:hover
+                        color: #5cb95b
+                    a#Lista-de-tareas:hover
+                        color: skyblue
+
+                p
+                    margin: 0px
+                p.tecnologias
+                    color: grey
+                    font-size: 11px
+
+                a.btn
+                    float: right
+                    background-color: #1563AA
+                    color: white
+                    padding: 6px 12px
+                    text-decoration: none
+                    border-radius: 5px
+                    display: inline-block
+
+                a.btn:hover
+                        background-color: #1562aac5
+                        color: lightgrey

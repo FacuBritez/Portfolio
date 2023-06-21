@@ -1,0 +1,72 @@
+#aside
+    height: 100vh
+    background-color: #040b14
+    padding: 0
+
+    //avatar
+    img
+        margin: 30px
+        width: 100px
+        border-radius: 50%
+        border: 2px solid black
+        transition: 0.5s
+    img:hover
+        border: 2px solid #ff00b3
+        transform: scale(1.05)
+
+    h1
+        font-size: 18px
+
+    p
+        margin: 10px
+
+    //iconos en redes y navbar 
+    i
+        width: 250px
+        text-align: center
+        margin: 0px 5px
+        padding: 6px 0px
+        font-size: 18px
+        width: 30px
+        height: 30px
+        color: #ffffff
+        border: solid 2px rgb(0, 0, 0, 0)
+        border-radius: 50%
+        transition: 0.5s
+
+    //botones redes
+    #redes
+        margin-bottom: 30px
+
+        i:hover
+            color: grey
+            transform: scale(1.15)
+
+    /*Navbar*/
+    #navbar
+        text-align: left
+        width: 70%
+        margin: auto
+        a
+            display: inline-block
+            transition: 0.5s
+            text-decoration: none
+            color: white
+
+            i
+                font-size: 15px
+
+        a:hover
+            color: #1563AA
+            transform: scale(1.1) translate(-5px)
+            i
+                color: #ff00b3
+
+@media (max-width: 767px)
+    #aside
+        height: auto
+
+        #navbar
+            width: fit-content
+            padding-right: 65px
+            margin: 0px auto

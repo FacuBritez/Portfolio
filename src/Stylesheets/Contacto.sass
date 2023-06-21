@@ -1,0 +1,42 @@
+.container
+    padding: 20px 25px 10px
+    h2::after
+        content: ""
+        display: block
+        margin-top: 10px
+        width: 80px
+        height: 3px
+        background-color: #05a7a7
+    .contain:hover
+        cursor: pointer
+    .contain
+        display: flex
+        align-items: center
+        margin: 15px 0px 0px 7px
+        width: fit-content
+        p
+            display: inline-block
+            margin: 0px 7px 0px
+            transition: 0.5s
+        span
+            color: grey
+            transition: 0.25s
+            font-size: 13px
+        span:hover
+            color: white
+        a
+            color: white
+            text-decoration: none
+            //El "a" cancela estas propiedades en el contain 
+            display: flex
+            align-items: center
+        i
+            transition: 0.5s
+        .hover:hover
+            i
+                color: #ff00b3
+            p
+                color: #1563AA
+@media screen and (max-width: 382px)
+    span
+        display: none
