@@ -75,6 +75,15 @@ function Skills() {
                             <div className="progress-bar" id="angular" style={{ width: '40%' }}>Basico</div>
                         </div>
                     </div>
+
+                    <div className="col-lg-12">
+                        <img className="skills"  src={require('../Assets/skills-iconos/react.png')} alt="React" />
+                        <p>React</p>
+                        <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow={60} aria-valuemin={0}
+                            aria-valuemax={100}>
+                            <div className="progress-bar" id="react" style={{ width: '40%' }}>Basico</div>
+                        </div>
+                    </div>
                 </div>
 
                 {/*Columna Backend y otros*/}
