@@ -35,7 +35,7 @@ function Proyectos() {
                                 <a id="calculadora" target="_blank" href="https://facubritez.github.io/Calculadora/"><b>Calculadora</b></a>
                             </h4>
                             <a className="btn" target="_blank" href="https://facubritez.github.io/Calculadora/">Ver más</a>
-                            <p>Una calculadora web para realizar cálculos rápidos y precisos.</p>
+                            <p>Una calculadora web para poder realizar cálculos rápidos y precisos.</p>
                             <p className="tecnologias">Angular, TypeScript, GIT, HTML5 y Sass.</p>
                         </div>
                     </div>
