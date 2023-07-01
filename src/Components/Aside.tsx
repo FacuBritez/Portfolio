@@ -1,5 +1,8 @@
 import React from "react";
 import '../Stylesheets/Aside.sass';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse, faUser, faDesktop, faCode, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faWhatsapp, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Aside() {
     return (
@@ -15,22 +18,22 @@ function Aside() {
 
             {/*Botones redes*/}
             <div id="redes">
-                <a href="https://wa.me/+5491169487170" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>
-                <a href="https://github.com/FacuBritez" target="_blank"><i className="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/facundo-britez-009b11220/" target="_blank"><i className="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/+5491169487170" target="_blank"><FontAwesomeIcon icon={faWhatsapp} /></a>
+                <a href="https://github.com/FacuBritez" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+                <a href="https://www.linkedin.com/in/facundo-britez-009b11220/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
             </div>
 
             {/*Navbar*/}
             <div id="navbar">
-                <a href="#"><i className="fa-solid fa-house"></i>Home</a>
+                <a href="#"><FontAwesomeIcon icon={faHouse} />Home</a>
                 <br />
-                <a href="#sobre-mi"><i className="fa-solid fa-user"></i>Sobre mí</a>
+                <a href="#sobre-mi"><FontAwesomeIcon icon={faUser} />Sobre mí</a>
                 <br />
-                <a href="#proyectos"><i className="fa-solid fa-desktop"></i>Proyectos</a>
+                <a href="#proyectos"><FontAwesomeIcon icon={faDesktop} />Proyectos</a>
                 <br />
-                <a href="#skills"><i className="fa-solid fa-code"></i>Skills</a>
+                <a href="#skills"><FontAwesomeIcon icon={faCode} />Skills</a>
                 <br />
-                <a href="#contacto"><i className="fa-solid fa-envelope"></i>Contacto</a>
+                <a href="#contacto"><FontAwesomeIcon icon={faEnvelope} />Contacto</a>
             </div>
         </div>
     );

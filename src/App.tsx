@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.sass';
+
 import Aside from './Components/Aside';
 import Banner from './Components/Banner';
 import Contacto from './Components/Contacto';
@@ -8,6 +9,7 @@ import Proyectos from './Components/Proyectos';
 import Skills from './Components/Skills';
 import SobreMi from './Components/SobreMi';
 import Up from './Components/Up';
+
 
 function App() {
   return (
