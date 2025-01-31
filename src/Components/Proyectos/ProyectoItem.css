@@ -1,0 +1,10 @@
+.tecnologias img {
+    width: 25px;
+    margin: 10px 8px 0px 0px;
+}
+
+span {
+    font-size: 0.5em;
+    font-style: oblique;
+    color: grey;
+}

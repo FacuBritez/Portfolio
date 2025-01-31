@@ -5,7 +5,7 @@ import Aside from './Components/Aside';
 import Banner from './Components/Banner';
 import Contacto from './Components/Contacto';
 import Footer from './Components/Footer';
-import Proyectos from './Components/Proyectos';
+import Proyectos from './Components/Proyectos/Proyectos';
 import Skills from './Components/Skills';
 import SobreMi from './Components/SobreMi';
 import Up from './Components/Up';
