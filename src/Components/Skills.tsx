@@ -92,11 +92,11 @@ function Skills() {
                     <div className="col-sm-12">
                         <h3 className="text-center">Backend</h3>
                         <div className="col-lg-12">
-                            <img className="skills"  src={require('../Assets/skills-iconos/java.png')} alt="Java" />
-                            <p>Java</p>
+                            <img className="skills"  src={require('../Assets/skills-iconos/node.png')} alt="Java" />
+                            <p>NodeJs</p>
                             <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow={25}
                                 aria-valuemin={0} aria-valuemax={100}>
-                                <div className="progress-bar" id="java" style={{ width: '15%' }}>Basico</div>
+                                <div className="progress-bar" id="node" style={{ width: '15%' }}>Basico</div>
                             </div>
                         </div>
                         <div className="col-lg-12">
