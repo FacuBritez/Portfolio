@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "//github.com/FacuBritez/Portfolio-React/static/css/main.292a7b5d.css",
-    "main.js": "//github.com/FacuBritez/Portfolio-React/static/js/main.184ce790.js",
-    "static/media/VLV-Motos-1.png": "//github.com/FacuBritez/Portfolio-React/static/media/VLV-Motos-1.b4707d61617c3e6e1eee.png",
-    "static/media/banner2.jpg": "//github.com/FacuBritez/Portfolio-React/static/media/banner2.3192f8b8cc2d7fd0bf62.jpg",
-    "static/media/Estados.png": "//github.com/FacuBritez/Portfolio-React/static/media/Estados.e9cc6bc69cc53a87fa84.png",
-    "static/media/react.png": "//github.com/FacuBritez/Portfolio-React/static/media/react.122e71d9325c89762c66.png",
-    "static/media/node.png": "//github.com/FacuBritez/Portfolio-React/static/media/node.aca5f5f1cd9de98d4edc.png",
-    "static/media/Lista-de-tareas.png": "//github.com/FacuBritez/Portfolio-React/static/media/Lista-de-tareas.665ba38d6af2747db533.png",
-    "static/media/Numeros-Romanos.png": "//github.com/FacuBritez/Portfolio-React/static/media/Numeros-Romanos.ffe18b0bf3b054c5d5e0.png",
-    "static/media/sass.png": "//github.com/FacuBritez/Portfolio-React/static/media/sass.198f752fa8c8bf7e51f4.png",
-    "index.html": "//github.com/FacuBritez/Portfolio-React/index.html",
-    "main.292a7b5d.css.map": "//github.com/FacuBritez/Portfolio-React/static/css/main.292a7b5d.css.map",
-    "main.184ce790.js.map": "//github.com/FacuBritez/Portfolio-React/static/js/main.184ce790.js.map"
+    "main.css": "/Portfolio-React/static/css/main.64ec9785.css",
+    "main.js": "/Portfolio-React/static/js/main.34aa8ab1.js",
+    "static/media/VLV-Motos-1.png": "/Portfolio-React/static/media/VLV-Motos-1.b4707d61617c3e6e1eee.png",
+    "static/media/banner2.jpg": "/Portfolio-React/static/media/banner2.3192f8b8cc2d7fd0bf62.jpg",
+    "static/media/Estados.png": "/Portfolio-React/static/media/Estados.e9cc6bc69cc53a87fa84.png",
+    "static/media/react.png": "/Portfolio-React/static/media/react.122e71d9325c89762c66.png",
+    "static/media/node.png": "/Portfolio-React/static/media/node.aca5f5f1cd9de98d4edc.png",
+    "static/media/Lista-de-tareas.png": "/Portfolio-React/static/media/Lista-de-tareas.665ba38d6af2747db533.png",
+    "static/media/Numeros-Romanos.png": "/Portfolio-React/static/media/Numeros-Romanos.ffe18b0bf3b054c5d5e0.png",
+    "static/media/sass.png": "/Portfolio-React/static/media/sass.198f752fa8c8bf7e51f4.png",
+    "index.html": "/Portfolio-React/index.html",
+    "main.64ec9785.css.map": "/Portfolio-React/static/css/main.64ec9785.css.map",
+    "main.34aa8ab1.js.map": "/Portfolio-React/static/js/main.34aa8ab1.js.map"
   },
   "entrypoints": [
-    "static/css/main.292a7b5d.css",
-    "static/js/main.184ce790.js"
+    "static/css/main.64ec9785.css",
+    "static/js/main.34aa8ab1.js"
   ]
 }
