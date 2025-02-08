@@ -1,72 +1,76 @@
 #aside
-    height: 100vh
-    background-color: #040b14
-    padding: 0
+  height: 100vh
+  background-color: #040b14
+  padding: 0
 
-    //avatar
-    img
-        margin: 30px
-        width: 100px
-        border-radius: 50%
-        border: 2px solid black
+  // Avatar
+  img
+    margin: 30px
+    width: 100px
+    border-radius: 50%
+    border: 2px solid black
+    transition: 0.5s
+    &:hover
+      border: 2px solid #ff00b3
+      transform: scale(1.05)
+
+  h1
+    font-size: 18px
+
+  p
+    margin: 10px
+
+  // Botones redes
+  #redes
+    margin-bottom: 30px
+    a
+      display: inline-block
+      transition: 0.5s
+      margin: 5px 20px 0px 0px
+      svg
+        width: 20px
+        height: 20px
+        color: white
         transition: 0.5s
-    img:hover
-        border: 2px solid #ff00b3
-        transform: scale(1.05)
+        path
+          transition: 0.5s
+    a:hover
+      svg
+        color: grey
+        transform: scale(1.15)
+        path
+          fill: grey
 
-    h1
-        font-size: 18px
-
-    p
-        margin: 10px
-
-    //iconos en redes y navbar 
-    i
-        width: 250px
-        text-align: center
-        margin: 0px 5px
-        padding: 6px 0px
-        font-size: 18px
-        width: 30px
-        height: 30px
-        color: #ffffff
-        border: solid 2px rgb(0, 0, 0, 0)
-        border-radius: 50%
-        transition: 0.5s
-
-    //botones redes
-    #redes
-        margin-bottom: 30px
-
-        i:hover
-            color: grey
-            transform: scale(1.15)
-
-    /*Navbar*/
-    #navbar
-        text-align: left
-        width: 70%
-        margin: auto
-        a
-            display: inline-block
-            transition: 0.5s
-            text-decoration: none
-            color: white
-
-            i
-                font-size: 15px
-
-        a:hover
-            color: #1563AA
-            transform: scale(1.1) translate(-5px)
-            i
-                color: #ff00b3
+  // Navbar
+  #navbar
+    text-align: left
+    width: 70%
+    margin: auto
+    a
+      display: flex
+      align-items: center
+      transition: 0.5s
+      text-decoration: none
+      color: white
+      margin: 2px 0  
+      svg
+        font-size: 15px
+        min-width: 25px    
+        margin-right: 10px 
+        path
+          transition: 0.5s
+          fill: currentColor
+    a:hover
+      color: #1563AA
+      transform: scale(1.1) translate(-5px)
+      svg path
+        fill: #ff00b3
 
 @media (max-width: 767px)
-    #aside
-        height: auto
+  #aside
+    height: auto
 
-        #navbar
-            width: fit-content
-            padding-right: 65px
-            margin: 0px auto
+    #navbar
+      width: fit-content
+      padding-right: 65px
+      margin: 0 auto
