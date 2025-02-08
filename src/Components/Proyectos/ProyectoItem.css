@@ -1,10 +1,26 @@
-.tecnologias img {
-    width: 25px;
-    margin: 10px 8px 0px 0px;
-}
-
 span {
-    font-size: 0.5em;
+    font-size: 1em;
     font-style: oblique;
     color: grey;
+    margin-left: 5px;
+}
+
+.skill {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+
+    margin: 5px 5px 0px 0px;
+    border-radius: 35px; 
+    background-color: rgb(27, 27, 27);
+}
+
+.skill img {
+    width: 15px;
+    height: auto;
+    margin: 0px;;
+}
+
+.skill span {
+    color: white;
 }

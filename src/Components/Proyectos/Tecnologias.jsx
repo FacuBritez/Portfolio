@@ -10,44 +10,96 @@ import imgNode from "../../Assets/skills-iconos/node.png";
 import imgGit from "../../Assets/skills-iconos/git.png";
 
 const SkillSass = () => {
-  return <img src={imgSass} />;
+  return (
+    <div className="skill">
+      <img src={imgSass} alt="Sass" />
+      <span>Sass</span>
+    </div>
+  );
 };
 
 const SkillHtml = () => {
-  return <img src={imgHtml} />;
+  return (
+    <div className="skill">
+      <img src={imgHtml} alt="HTML" />
+      <span>HTML</span>
+    </div>
+  );
 };
 
 const SkillCss = () => {
-  return <img src={imgCss} />;
+  return (
+    <div className="skill">
+      <img src={imgCss} alt="CSS" />
+      <span>CSS</span>
+    </div>
+  );
 };
 
 const SkillBs = () => {
-  return <img src={imgBs} />;
+  return (
+    <div className="skill">
+      <img src={imgBs} alt="Bootstrap" />
+      <span>Bootstrap</span>
+    </div>
+  );
 };
 
 const SkillJs = () => {
-  return <img src={imgJs} />;
+  return (
+    <div className="skill">
+      <img src={imgJs} alt="JavaScript" />
+      <span>JavaScript</span>
+    </div>
+  );
 };
 
 const SkillTs = () => {
-  return <img src={imgTs} />;
+  return (
+    <div className="skill">
+      <img src={imgTs} alt="TypeScript" />
+      <span>TypeScript</span>
+    </div>
+  );
 };
 
 const SkillAngular = () => {
-  return <img src={imgAngular} />;
+  return (
+    <div className="skill">
+      <img src={imgAngular} alt="Angular" />
+      <span>Angular</span>
+    </div>
+  );
 };
 
+
 const SkillReact = () => {
-  return <img src={imgReact} />;
+  return (
+    <div className="skill">
+      <img src={imgReact} alt="React"/>
+      <span>React</span>
+    </div>
+  );
 };
 
 const SkillNode = () => {
-  return <img src={imgNode} />;
+  return (
+    <div className="skill">
+      <img src={imgNode} alt="Node.js" />
+      <span>Node.js</span>
+    </div>
+  );
 };
 
 const SkillGit = () => {
-  return <img src={imgGit} />;
+  return (
+    <div className="skill">
+      <img src={imgGit} alt="Git" />
+      <span>Git</span>
+    </div>
+  );
 };
+
 
 export const Skills = {
   SkillHtml,
