@@ -3,7 +3,7 @@ import '../Stylesheets/Contacto.sass';
 
 function Contacto() {
     return (
-        <div className="container">
+        <div className="container"  id="contacto">
             <h2>Contacto</h2>
             {/* onClick = copyContent function en el siguiente div */}
             <div className="contain">

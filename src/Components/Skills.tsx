@@ -3,7 +3,7 @@ import '../Stylesheets/Skills.sass';
 
 function Skills() {
     return (
-        <div className="container">
+        <div className="container" id="skills">
             <div className="row">
 
                 <div className="col-12">

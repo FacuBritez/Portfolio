@@ -9,7 +9,7 @@ import { Skills } from "./Tecnologias";
 
 function Proyectos() {
   return (
-    <div className="container">
+    <div className="container" id="proyectos">
       <div className="row">
         <div className="col-12">
           <h2>Mis proyectos</h2>

@@ -3,7 +3,7 @@ import '../Stylesheets/SobreMi.sass';
 
 function SobreMi() {
     return (
-        <div className="container">
+        <div className="container" id="sobre-mi">
             <h2>Sobre mí</h2>
             <p>
                 Soy un programador apasionado por la tecnología.
