@@ -59,7 +59,6 @@ function Proyectos() {
               <Skills.SkillGit />
               <Skills.SkillHtml />
               <Skills.SkillSass />
-              <Skills.SkillBs />
             </>
           }
         />
