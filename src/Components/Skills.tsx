@@ -185,7 +185,7 @@ function Skills() {
           </div>
         </div>
 
-        {/*Columna Backend y otros*/}
+        {/*Columna Backend y Herramientas*/}
 
         <div className="col-sm-12 col-lg-6">
           <h3 className="text-center">Backend</h3>
@@ -231,7 +231,7 @@ function Skills() {
           </div>
 
           <div className="otros" id="otros">
-            <h3>Otros</h3>
+            <h3>Herramientas</h3>
           </div>
           <div className="col-lg-12">
             <img
