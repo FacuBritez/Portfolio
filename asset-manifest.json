@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.1584dfbd.css",
-    "main.js": "/Portfolio-React/static/js/main.050d047c.js",
-    "static/media/VLV-Motos-1.png": "/Portfolio-React/static/media/VLV-Motos-1.b4707d61617c3e6e1eee.png",
-    "static/media/banner2.jpg": "/Portfolio-React/static/media/banner2.3192f8b8cc2d7fd0bf62.jpg",
-    "static/media/Estados.png": "/Portfolio-React/static/media/Estados.e9cc6bc69cc53a87fa84.png",
-    "static/media/react.png": "/Portfolio-React/static/media/react.122e71d9325c89762c66.png",
-    "static/media/node.png": "/Portfolio-React/static/media/node.aca5f5f1cd9de98d4edc.png",
-    "static/media/Lista-de-tareas.png": "/Portfolio-React/static/media/Lista-de-tareas.665ba38d6af2747db533.png",
-    "static/media/Numeros-Romanos.png": "/Portfolio-React/static/media/Numeros-Romanos.ffe18b0bf3b054c5d5e0.png",
-    "static/media/sass.png": "/Portfolio-React/static/media/sass.198f752fa8c8bf7e51f4.png",
-    "index.html": "/Portfolio-React/index.html",
-    "main.1584dfbd.css.map": "/Portfolio-React/static/css/main.1584dfbd.css.map",
-    "main.050d047c.js.map": "/Portfolio-React/static/js/main.050d047c.js.map"
+    "main.css": "/Portfolio/static/css/main.60be128e.css",
+    "main.js": "/Portfolio/static/js/main.b216b19f.js",
+    "static/media/VLV-Motos-1.png": "/Portfolio/static/media/VLV-Motos-1.b4707d61617c3e6e1eee.png",
+    "static/media/banner2.jpg": "/Portfolio/static/media/banner2.3192f8b8cc2d7fd0bf62.jpg",
+    "static/media/Estados.png": "/Portfolio/static/media/Estados.e9cc6bc69cc53a87fa84.png",
+    "static/media/react.png": "/Portfolio/static/media/react.122e71d9325c89762c66.png",
+    "static/media/node.png": "/Portfolio/static/media/node.aca5f5f1cd9de98d4edc.png",
+    "static/media/Lista-de-tareas.png": "/Portfolio/static/media/Lista-de-tareas.665ba38d6af2747db533.png",
+    "static/media/Numeros-Romanos.png": "/Portfolio/static/media/Numeros-Romanos.ffe18b0bf3b054c5d5e0.png",
+    "static/media/sass.png": "/Portfolio/static/media/sass.198f752fa8c8bf7e51f4.png",
+    "index.html": "/Portfolio/index.html",
+    "main.60be128e.css.map": "/Portfolio/static/css/main.60be128e.css.map",
+    "main.b216b19f.js.map": "/Portfolio/static/js/main.b216b19f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1584dfbd.css",
-    "static/js/main.050d047c.js"
+    "static/css/main.60be128e.css",
+    "static/js/main.b216b19f.js"
   ]
 }
