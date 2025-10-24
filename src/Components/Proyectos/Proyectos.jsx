@@ -5,6 +5,7 @@ import VLVMotosImage from "../../Assets/proyectos/VLV-Motos-1.png";
 import conversorImage from "../../Assets/proyectos/Numeros-Romanos.png";
 import listaImage from "../../Assets/proyectos/Lista-de-tareas.png";
 import estadosImage from "../../Assets/proyectos/Estados.png";
+import juegoVRImage from "../../Assets/proyectos/Juego-VR.jpg";
 import { Skills } from "./Tecnologias";
 
 function Proyectos() {
@@ -28,6 +29,19 @@ function Proyectos() {
               <Skills.SkillGit />
               <Skills.SkillHtml />
               <Skills.SkillCss />
+            </>
+          }
+        />
+        <ProyectoItem
+          title="Entrevista VR"
+          text="Un juego de realidad virtual que sumerge al usuario en la preparación de una entrevista de forma interactiva."
+          image={juegoVRImage}
+          link="https://github.com/puerta18arg/EntrevistaVR"
+          tech={
+            <>
+              <Skills.SkillUnity />
+              <Skills.SkillCSharp />
+              <Skills.SkillGit />
             </>
           }
         />

@@ -8,6 +8,8 @@ import imgAngular from "../../Assets/skills-iconos/angular.png";
 import imgReact from "../../Assets/skills-iconos/react.png";
 import imgNode from "../../Assets/skills-iconos/node.png";
 import imgGit from "../../Assets/skills-iconos/git.png";
+import imgCSharp from "../../Assets/skills-iconos/csharp.png";
+import imgUnity from "../../Assets/skills-iconos/unity.png";
 
 const SkillSass = () => {
   return (
@@ -100,6 +102,24 @@ const SkillGit = () => {
   );
 };
 
+const SkillCSharp = () => {
+  return (
+    <div className="skill">
+      <img src={imgCSharp} alt="C#" />
+      <span>C#</span>
+    </div>
+  );
+};
+
+const SkillUnity = () => {
+  return (
+    <div className="skill">
+      <img src={imgUnity} alt="Unity" />
+      <span>Unity</span>
+    </div>
+  );
+};
+
 
 export const Skills = {
   SkillHtml,
@@ -112,4 +132,6 @@ export const Skills = {
   SkillReact,
   SkillNode,
   SkillGit,
+  SkillCSharp,
+  SkillUnity,
 };
