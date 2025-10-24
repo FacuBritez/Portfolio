@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.60be128e.css",
-    "main.js": "/Portfolio/static/js/main.b216b19f.js",
+    "main.js": "/Portfolio/static/js/main.e7e7e274.js",
     "static/media/VLV-Motos-1.png": "/Portfolio/static/media/VLV-Motos-1.b4707d61617c3e6e1eee.png",
     "static/media/banner2.jpg": "/Portfolio/static/media/banner2.3192f8b8cc2d7fd0bf62.jpg",
     "static/media/Estados.png": "/Portfolio/static/media/Estados.e9cc6bc69cc53a87fa84.png",
+    "static/media/Juego-VR.jpg": "/Portfolio/static/media/Juego-VR.c8e576f5919bc2f8b361.jpg",
     "static/media/react.png": "/Portfolio/static/media/react.122e71d9325c89762c66.png",
     "static/media/node.png": "/Portfolio/static/media/node.aca5f5f1cd9de98d4edc.png",
     "static/media/Lista-de-tareas.png": "/Portfolio/static/media/Lista-de-tareas.665ba38d6af2747db533.png",
     "static/media/Numeros-Romanos.png": "/Portfolio/static/media/Numeros-Romanos.ffe18b0bf3b054c5d5e0.png",
+    "static/media/csharp.png": "/Portfolio/static/media/csharp.89f2e52aa59f7dcb6b96.png",
+    "static/media/unity.png": "/Portfolio/static/media/unity.0dfa6d53e29935d374bb.png",
     "static/media/sass.png": "/Portfolio/static/media/sass.198f752fa8c8bf7e51f4.png",
     "index.html": "/Portfolio/index.html",
     "main.60be128e.css.map": "/Portfolio/static/css/main.60be128e.css.map",
-    "main.b216b19f.js.map": "/Portfolio/static/js/main.b216b19f.js.map"
+    "main.e7e7e274.js.map": "/Portfolio/static/js/main.e7e7e274.js.map"
   },
   "entrypoints": [
     "static/css/main.60be128e.css",
-    "static/js/main.b216b19f.js"
+    "static/js/main.e7e7e274.js"
   ]
 }
