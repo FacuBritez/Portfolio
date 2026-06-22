@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.60be128e.css",
-    "main.js": "/Portfolio/static/js/main.e7e7e274.js",
+    "main.js": "/Portfolio/static/js/main.fb8eaf72.js",
     "static/media/VLV-Motos-1.png": "/Portfolio/static/media/VLV-Motos-1.b4707d61617c3e6e1eee.png",
     "static/media/banner2.jpg": "/Portfolio/static/media/banner2.3192f8b8cc2d7fd0bf62.jpg",
     "static/media/Estados.png": "/Portfolio/static/media/Estados.e9cc6bc69cc53a87fa84.png",
+    "static/media/BajaloYa.png": "/Portfolio/static/media/BajaloYa.988d99864b1c1309e787.png",
     "static/media/Juego-VR.jpg": "/Portfolio/static/media/Juego-VR.c8e576f5919bc2f8b361.jpg",
     "static/media/react.png": "/Portfolio/static/media/react.122e71d9325c89762c66.png",
     "static/media/node.png": "/Portfolio/static/media/node.aca5f5f1cd9de98d4edc.png",
@@ -15,10 +16,10 @@
     "static/media/sass.png": "/Portfolio/static/media/sass.198f752fa8c8bf7e51f4.png",
     "index.html": "/Portfolio/index.html",
     "main.60be128e.css.map": "/Portfolio/static/css/main.60be128e.css.map",
-    "main.e7e7e274.js.map": "/Portfolio/static/js/main.e7e7e274.js.map"
+    "main.fb8eaf72.js.map": "/Portfolio/static/js/main.fb8eaf72.js.map"
   },
   "entrypoints": [
     "static/css/main.60be128e.css",
-    "static/js/main.e7e7e274.js"
+    "static/js/main.fb8eaf72.js"
   ]
 }
