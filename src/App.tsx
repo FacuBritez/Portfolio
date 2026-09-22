@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import './App.scss';
 
+import { LanguageProvider } from './i18n/LanguageContext';
 import BgCanvas from './Components/BgCanvas';
 import Navbar from './Components/NavBar';
 import Banner from './Components/Banner';
@@ -52,16 +53,18 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <BgCanvas />
-      <Navbar />
-      <Banner />
-      <Proyectos />
-      <SobreMi />
-      <Skills />
-      <Contacto />
-      <Footer />
-    </div>
+    <LanguageProvider>
+      <div className="App">
+        <BgCanvas />
+        <Navbar />
+        <Banner />
+        <Proyectos />
+        <SobreMi />
+        <Skills />
+        <Contacto />
+        <Footer />
+      </div>
+    </LanguageProvider>
   );
 }
 

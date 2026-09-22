@@ -29,7 +29,54 @@
   align-items: center;
 }
 
-/* Logo <Facu/> */
+/* Wrapper de menú + lang + hamburguesa */
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  position: relative;
+  z-index: 1001;
+}
+
+/* ============================================
+   Toggle ES / EN
+   ============================================ */
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-color);
+  border-radius: 50px;
+}
+
+.lang-option {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.35rem 0.75rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.lang-option:hover {
+  color: var(--text-primary);
+}
+
+.lang-option.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* ============================================
+   Logo <Facu/>
+   ============================================ */
 .nav-logo {
   display: inline-flex;
   align-items: center;
@@ -76,6 +123,9 @@
   color: var(--accent);
 }
 
+/* ============================================
+   Menú
+   ============================================ */
 .nav-menu {
   display: flex;
   list-style: none;
@@ -166,7 +216,6 @@
 
   .nav-toggle {
     display: block;
-    z-index: 1001;
   }
 
   .nav-logo {

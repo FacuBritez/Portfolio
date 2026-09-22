@@ -1,22 +1,18 @@
+import { useLanguage } from '../i18n/LanguageContext';
+
 function SobreMi() {
+  const { t } = useLanguage();
+
   return (
     <section id="sobre-mi" className="section section-alt">
       <div className="container">
         <div className="about-grid about-grid--text-only">
           <div className="about-text" data-animate>
-            <span className="section-tag">Sobre mí</span>
-            <h2 className="section-title">Un poco sobre mi camino</h2>
-            <p>
-              Soy un programador apasionado por la tecnología. He estado aprendiendo diferentes
-              lenguajes de programación y siempre estoy buscando nuevos desafíos para mejorar mis
-              habilidades. Mi enfoque se centra en crear soluciones que no solo funcionen bien,
-              sino que también ofrezcan una experiencia de usuario excepcional.
-            </p>
-            <p>
-              Me entusiasma especialmente el desarrollo de aplicaciones interactivas y juegos de
-              realidad virtual, donde puedo combinar lógica, diseño y creatividad.
-            </p>
-            <a href="#contacto" className="btn btn-primary">Trabajemos juntos</a>
+            <span className="section-tag">{t('sobreMi.tag')}</span>
+            <h2 className="section-title">{t('sobreMi.title')}</h2>
+            <p>{t('sobreMi.p1')}</p>
+            <p>{t('sobreMi.p2')}</p>
+            <a href="#contacto" className="btn btn-primary">{t('sobreMi.btn')}</a>
           </div>
         </div>
       </div>
