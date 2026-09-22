@@ -1,4 +1,9 @@
 import { useLanguage } from '../i18n/LanguageContext';
+import delrioImg from '../assets/delrio.png';
+import bajaloYaImg from '../assets/bajaloYa.png';
+import entrevistaVrImg from '../assets/EntrevistaVR.png';
+import estadosWppImg from '../assets/EstadosWpp.png';
+import vlvMotosImg from '../assets/VLV-Motos.png';
 
 type Proyecto = {
   key: 'delrio' | 'bajaloYa' | 'entrevistaVr' | 'estadosWpp' | 'vlvMotos';
@@ -12,35 +17,35 @@ const proyectos: Proyecto[] = [
   {
     key: 'delrio',
     title: 'Delrio Consultora',
-    img: '/assets/Delrio.png',
+    img: delrioImg,
     link: 'https://delrio.biz/',
     tags: ['WordPress', 'HTML', 'CSS', 'JavaScript', 'Responsive'],
   },
   {
     key: 'bajaloYa',
     title: 'BajaloYa',
-    img: '/assets/BajaloYa.png',
+    img: bajaloYaImg,
     link: 'https://drive.google.com/file/d/1ivVdIEUgMswDFVVyXLRXOfwciucSJytJ/view?usp=sharing',
     tags: ['Unity', 'C#', 'Git'],
   },
   {
     key: 'entrevistaVr',
     title: 'Entrevista VR',
-    img: '/assets/EntrevistaVR.png',
+    img: entrevistaVrImg,
     link: 'https://github.com/puerta18arg/EntrevistaVR',
     tags: ['Unity', 'C#', 'Git'],
   },
   {
     key: 'estadosWpp',
     title: 'Estados Wpp',
-    img: '/assets/EstadosWpp.png',
+    img: estadosWppImg,
     link: 'https://facubritez.github.io/EstadosWpp/',
     tags: ['React', 'Node.js', 'JavaScript', 'HTML', 'CSS'],
   },
   {
     key: 'vlvMotos',
     title: 'VLV Motos',
-    img: '/assets/VLV-Motos.png',
+    img: vlvMotosImg,
     link: 'https://facubritez.github.io/VLV-motos/',
     tags: ['React', 'Git', 'HTML', 'Sass', 'Bootstrap'],
   },
