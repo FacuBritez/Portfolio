@@ -1,261 +1,55 @@
-import React from "react";
-import "../Stylesheets/Skills.sass";
-
 function Skills() {
   return (
-    <div className="container" id="skills">
-      <div className="row">
-        <div className="col-12">
-          <h2 id="titulo">Mis habilidades</h2>
+    <section id="habilidades" className="section">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-tag">Habilidades</span>
+          <h2 className="section-title">Tecnologías que utilizo</h2>
+          <p className="section-desc">
+            Herramientas y lenguajes con los que trabajo a diario para dar vida a las ideas.
+          </p>
         </div>
-
-        {/*Columna Frontend*/}
-        <div className="col-sm-12 col-lg-6">
-          <h3 className="text-center">Frontend</h3>
-          <div className="col-lg-12">
-            <img
-              className="skills"
-              src={require("../Assets/skills-iconos/html.png")}
-              alt="HTML"
-            />
-            <p>Html</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow={80}
-              aria-valuemin={0}
-              aria-valuemax={100}
-            >
-              <div className="progress-bar" id="html" style={{ width: "90%" }}>
-                Avanzado
-              </div>
+        <div className="bento-grid">
+          <div className="bento-item bento-large" data-animate>
+            <i className="fas fa-laptop-code bento-icon"></i>
+            <h3>Frontend</h3>
+            <div className="bento-tags">
+              <span>HTML Avanzado</span>
+              <span>CSS Intermedio</span>
+              <span>JavaScript Avanzado</span>
+              <span>TypeScript Intermedio</span>
+              <span>React Básico</span>
+              <span>Angular Básico</span>
+              <span>Bootstrap</span>
+              <span>Sass</span>
             </div>
           </div>
-
-          <div className="col-lg-12">
-            <img
-              className="skills"
-              src={require("../Assets/skills-iconos/css.png")}
-              alt="CSS"
-            />
-            <p>Css</p>
-            <div
-              className="progress html"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow={50}
-              aria-valuemin={0}
-              aria-valuemax={100}
-            >
-              <div className="progress-bar" id="css" style={{ width: "65%" }}>
-                Intermedio
-              </div>
+          <div className="bento-item" data-animate>
+            <i className="fas fa-server bento-icon"></i>
+            <h3>Backend</h3>
+            <div className="bento-tags">
+              <span>Node.js Básico</span>
+              <span>MySQL Básico</span>
             </div>
           </div>
-
-          <div className="col-lg-12">
-            <img
-              className="skills"
-              src={require("../Assets/skills-iconos/bootstrap.png")}
-              alt="Bootstrap"
-            />
-            <p>Bootstrap</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow={50}
-              aria-valuemin={0}
-              aria-valuemax={100}
-            >
-              <div className="progress-bar" id="bs" style={{ width: "65%" }}>
-                Intermedio
-              </div>
+          <div className="bento-item" data-animate>
+            <i className="fas fa-gamepad bento-icon"></i>
+            <h3>Game Dev</h3>
+            <div className="bento-tags">
+              <span>Unity</span>
+              <span>C#</span>
             </div>
           </div>
-
-          <div className="col-lg-12">
-            <img
-              className="skills"
-              src={require("../Assets/skills-iconos/sass.png")}
-              alt="Sass"
-            />
-            <p>Sass</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow={50}
-              aria-valuemin={0}
-              aria-valuemax={100}
-            >
-              <div className="progress-bar" id="sass" style={{ width: "65%" }}>
-                Intermedio
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-12">
-            <img
-              className="skills"
-              src={require("../Assets/skills-iconos/javascript.png")}
-              alt="JavaScript"
-            />
-            <p>JavaScript</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow={75}
-              aria-valuemin={0}
-              aria-valuemax={100}
-            >
-              <div className="progress-bar" id="js" style={{ width: "80%" }}>
-                Avanzado
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-12">
-            <img
-              className="skills"
-              src={require("../Assets/skills-iconos/typescript.png")}
-              alt="TypeScript"
-            />
-            <p>TypeScript</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow={55}
-              aria-valuemin={0}
-              aria-valuemax={100}
-            >
-              <div className="progress-bar" id="ts" style={{ width: "55%" }}>
-                Intermedio
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-12">
-            <img
-              className="skills"
-              src={require("../Assets/skills-iconos/angular.png")}
-              alt="Angular"
-            />
-            <p>Angular</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow={60}
-              aria-valuemin={0}
-              aria-valuemax={100}
-            >
-              <div
-                className="progress-bar"
-                id="angular"
-                style={{ width: "40%" }}
-              >
-                Basico
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-12">
-            <img
-              className="skills"
-              src={require("../Assets/skills-iconos/react.png")}
-              alt="React"
-            />
-            <p>React</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow={60}
-              aria-valuemin={0}
-              aria-valuemax={100}
-            >
-              <div className="progress-bar" id="react" style={{ width: "40%" }}>
-                Basico
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/*Columna Backend y Herramientas*/}
-
-        <div className="col-sm-12 col-lg-6">
-          <h3 className="text-center">Backend</h3>
-          <div className="col-lg-12">
-            <img
-              className="skills"
-              src={require("../Assets/skills-iconos/node.png")}
-              alt="Java"
-            />
-            <p>NodeJs</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow={25}
-              aria-valuemin={0}
-              aria-valuemax={100}
-            >
-              <div className="progress-bar" id="node" style={{ width: "15%" }}>
-                Basico
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <img
-              className="skills"
-              src={require("../Assets/skills-iconos/database.png")}
-              alt="MySql"
-            />
-            <p>MySql</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow={25}
-              aria-valuemin={0}
-              aria-valuemax={100}
-            >
-              <div className="progress-bar" id="mysql" style={{ width: "15%" }}>
-                Basico
-              </div>
-            </div>
-          </div>
-
-          <div className="otros" id="otros">
+          <div className="bento-item" data-animate>
+            <i className="fas fa-tools bento-icon"></i>
             <h3>Herramientas</h3>
-          </div>
-          <div className="col-lg-12">
-            <img
-              className="skills"
-              src={require("../Assets/skills-iconos/git.png")}
-              alt="Git"
-            />
-            <p>Git</p>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow={25}
-              aria-valuemin={0}
-              aria-valuemax={100}
-            >
-              <div className="progress-bar" id="git" style={{ width: "40%" }}>
-                Intermedio
-              </div>
+            <div className="bento-tags">
+              <span>Git</span>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

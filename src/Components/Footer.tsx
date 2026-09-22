@@ -1,12 +1,11 @@
-import React from "react";
-import '../Stylesheets/Footer.sass';
-
 function Footer() {
-    return (
-        <footer>
-            <p><a href="https://github.com/FacuBritez" target="_blank">Facundo Ivan Britez</a> | © Buenos Aires, Argentina 2023</p>
-        </footer>
-    );
+  return (
+    <footer className="footer">
+      <div className="container">
+        <p>Diseñado y construido por <a href="https://www.linkedin.com/in/facundoivanbritez/" target="_blank" rel="noopener noreferrer">Facundo Britez</a> &copy; 2026</p>
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;
