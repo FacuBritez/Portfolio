@@ -1,13 +1,18 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.bc9fc04a.css",
-    "main.js": "/Portfolio/static/js/main.6c102149.js",
+    "main.js": "/Portfolio/static/js/main.54f721a1.js",
+    "static/media/VLV-Motos.png": "/Portfolio/static/media/VLV-Motos.98676f4f35163cddea37.png",
+    "static/media/delrio.png": "/Portfolio/static/media/delrio.cc8998c33aa7df01a070.png",
+    "static/media/EstadosWpp.png": "/Portfolio/static/media/EstadosWpp.e9cc6bc69cc53a87fa84.png",
+    "static/media/bajaloYa.png": "/Portfolio/static/media/bajaloYa.988d99864b1c1309e787.png",
+    "static/media/EntrevistaVR.png": "/Portfolio/static/media/EntrevistaVR.c8e576f5919bc2f8b361.png",
     "index.html": "/Portfolio/index.html",
     "main.bc9fc04a.css.map": "/Portfolio/static/css/main.bc9fc04a.css.map",
-    "main.6c102149.js.map": "/Portfolio/static/js/main.6c102149.js.map"
+    "main.54f721a1.js.map": "/Portfolio/static/js/main.54f721a1.js.map"
   },
   "entrypoints": [
     "static/css/main.bc9fc04a.css",
-    "static/js/main.6c102149.js"
+    "static/js/main.54f721a1.js"
   ]
 }
